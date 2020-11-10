@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    /* width: 800px;
+    height: 800px;
+    /* border: 3px dashed #f33; */
+/* background: rgb(250, 100, 0.5); */
+/* background-image: url background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
+
+/* .background {
+    width: 800px;
+    height: 300px; */
+/* border: 3px dashed #f33; */
+/* background: rgb(250, 100, 0.5);
+    background-image: url(../img/mountain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+/* background: linear-gradient(green , green 33.33%, yellow 33.33%, yellow 66.66%, blue 66.66%, blue);
+     */
+/* background: radial-gradient(red, rgba (255, 200, 100, 0.25)); */
+/* background: radial-gradient(red, red 50%, blue 50%, blue); */
+
+.background {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9),
+        rgba(255, 255, 255, 0.5)
+        ), url("https://picsum.photos/1920/1080?random") center no-repeat; 
+        height: 100vh;
+        position: relative;
+}
+
+.center-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color:#fff;
+    font-family: 'Open Sans';
+
+
+
+}
