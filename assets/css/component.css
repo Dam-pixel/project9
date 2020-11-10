@@ -21,3 +21,11 @@
     display: block;
     text-align: center;
 }
+
+.background-image {
+    background-image: url('https://picsum.photos/id/312/500/500');
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+}
