@@ -12,3 +12,12 @@
     border: 3px solod #f66;
     color: tomato;
 }
+
+.homepage h2 {
+    text-align: center;
+}
+
+.homepage i {
+    display: block;
+    text-align: center;
+}
