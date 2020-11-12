@@ -29,3 +29,49 @@
     width: 250px;
     height: 250px;
 }
+
+.contact-page .map {
+    width: 100%;
+    height: 500px;
+}
+
+
+.homepage .my-list {
+    font-size: 24px;
+    list-style-type: square;
+}
+
+header ul.navigation {
+
+    list-style-type: none;
+    /* border: 3px dashed red; */
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%)
+    
+
+}
+
+
+header ul.navigation li {
+
+    list-style-type: none;
+    display: inline-block;
+    /* border: 3px dashed blue; */
+    margin: 0 10px;
+}
+
+header ul.navigation li a{
+
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+  
+}
+
+header ul.navigation li a:hover {
+    border-bottom:  3px solid white;
+    color: white;
+}

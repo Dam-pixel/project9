@@ -50,3 +50,13 @@ background-size: cover; */
 
 
 }
+
+.gallery-page header,
+.contact-page {
+height: 200px;
+}
+
+.gallery-page a,
+.gallery-page header li a {
+    color: black !important;
+}
